@@ -1,5 +1,5 @@
 body{
-	overflow:hidden;
+	overflow:shown;
 	background-color:#1e2f41;
 	margin:0;
 	padding:0;
@@ -9,14 +9,14 @@ body{
 	position:absolute;
 	top:50%;
 	left:50%;
-	width:922px;
-	height:600px;
+	width:2560px;
+	height:1440px;
 	margin:auto;
 }
 
 .magazine-viewport .magazine{
-	width:922px;
-	height:600px;
+	width:2126px;
+	height:1063px;
 	left:-461px;
 	top:-300px;
 }
@@ -145,14 +145,15 @@ body{
 
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
-	width:22px;
-	height:600px;
-	position:absolute;
+	width:200px;
+	height:1063px;
+	position: absolute ;
 	top:0;
+	
 }
 
 .magazine-viewport .next-button{
-	right:-22px;
+	right:-200px;
 	-webkit-border-radius:0 15px 15px 0;
 	-moz-border-radius:0 15px 15px 0;
 	-ms-border-radius:0 15px 15px 0;
@@ -161,7 +162,7 @@ body{
 }
 
 .magazine-viewport .previous-button{
-	left:-22px;
+	left:-200px;
 	-webkit-border-radius:15px 0 0 15px;
 	-moz-border-radius:15px 0 0 15px;
 	-ms-border-radius:15px 0 0 15px;
@@ -349,30 +350,31 @@ body{
 .zoom-icon{
 	position:absolute;
 	z-index:1000;
-	width:22px;
-	height:22px;
-	top:10px;
-	right:10px;
-	background-image:url(../pics/zoom-icons.png);
-	background-size:88px 22px;
+	width:100px;
+	height:100px;
+	bottom:-200px;
+	right:1240px;
+	background-image:url(../pics/zoom-icons.svg);
+	background-size:200px 100px;
 }
 
 .zoom-icon-in{
-	background-position:0 0;
+	background-position:100px 0;
 	cursor: pointer;
 }
 
 .zoom-icon-in.zoom-icon-in-hover{
-	background-position:-22px 0;
+	background-position:100px 0;
 	cursor: pointer;
 }
 
 .zoom-icon-out{
-	background-position:-44px 0;
+	background-position:0px 0;
+	cursor: pointer;
 }
 
 .zoom-icon-out.zoom-icon-out-hover{
-	background-position:-66px 0;
+	background-position:0px 0;
 	cursor: pointer;
 }
 

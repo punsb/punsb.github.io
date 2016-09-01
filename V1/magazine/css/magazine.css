@@ -7,8 +7,8 @@ body{
 
 .magazine-viewport .container{
 	position:absolute;
-	top:1143px;
-	left:0%;
+	top:50%;
+	left:50%;
 	width:922px;
 	height:600px;
 	margin:auto;

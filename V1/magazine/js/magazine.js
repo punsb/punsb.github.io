@@ -62,7 +62,7 @@ function zoomTo(event) {
 			if ($('.magazine-viewport').data().regionClicked) {
 				$('.magazine-viewport').data().regionClicked = false;
 			} else {
-				if ($('.magazine-viewport').zoom('value')==1) {
+				if ($('.magazine-viewport').zoom('value')==3) {
 					$('.magazine-viewport').zoom('zoomIn', event);
 				} else {
 					$('.magazine-viewport').zoom('zoomOut');
@@ -340,7 +340,7 @@ function setPreview(view) {
 
 function largeMagazineWidth() {
 	
-	return 2214;
+	return 3300;
 
 }
 
